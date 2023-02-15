@@ -26,4 +26,16 @@ public class LinkedList<K> {
         temp.next=newNode;
 
     }
+    public void add(K key){
+        Node<K> newNode= new Node<>(key);
+        if(head==null){
+            head=newNode;
+            tail=newNode;
+
+        }
+        else{
+            tail.next=newNode;
+            tail=newNode;
+        }
+    }
 }

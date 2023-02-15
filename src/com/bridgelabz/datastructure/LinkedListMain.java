@@ -11,6 +11,12 @@ public class LinkedListMain {
 
         System.out.println(linkedList1);
         System.out.println("***********************");
+        LinkedList<Integer> linkedList2=new LinkedList<>();
+        linkedList2.add(56);
+        linkedList2.add(70);
+        linkedList2.add(30);
+        System.out.println(linkedList2);
+
 
     }
 
